@@ -1,32 +1,28 @@
-Summary:	Tool for editing and converting subtitles for divx films
-Summary(pl): 	Program do konwersji napisow do divx'ow
+Summary:	Tool for editing and converting subtitles for DivX films
+Summary(pl):	Program do konwersji napisów do filmów w formacie DivX
 Name:		GTKsubtitler
 Version:	v0.1.5
 Release:	1
-Vendor:	        Pawe³ Boguszewski <pawelb@gower.pl>
+Vendor:		Pawe³ Boguszewski <pawelb@gower.pl>
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:  	http://www.gtksubtitler.prv.pl/download/%{name}-%{version}.tar.gz
-Source1:   	GTKsubtitler.desktop
+Source0:	http://www.gtksubtitler.prv.pl/download/%{name}-%{version}.tar.gz
+Source1:	%{name}.desktop
 Icon:		GTKsubtitler.xpm
 URL:		http://www.gtksubtitler.prv.pl
-BuildRequires:	autoconf
-BuildRequires:	automake
 BuildRequires:	gtk+-devel
 BuildRequires:	gnome-libs-devel
-BuildRequires:	libtool
-BuildRoot:	%{tmpdir}/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tool for editing and converting subtitles 4 divx films. It supports mergeing, 
-moveing, changeing format of sub-file and converting (to iso-8859-1/2) divix 
-subtitles.
+Tool for editing and converting subtitles for DivX films. It supports
+mergeing, moveing, changeing format of sub-file and converting (to
+iso-8859-1/2) divix subtitles.
 
 %description -l pl
-Program do konwersji napisow do divx'ow. Obsluguje przesuwanie napisów, 
-sklejanie dwóch plików (i wiecej) w jeden, zmienianie formatu  i konwersje 
-do formatu iso-8859-1/2.
-
+Program do konwersji napisów do filmów w formacie DivX. Obs³uguje
+przesuwanie napisów, sklejanie dwóch (i wiêcej) plików w jeden,
+zmienianie formatu i konwersje do formatu iso-8859-1/2.
 
 %prep
 %setup -q
