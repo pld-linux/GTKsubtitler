@@ -6,8 +6,8 @@ Release:	3
 Vendor:		Pawe³ Boguszewski <pawelb@pld-linux.org>
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:	http://super.wafel.com/gtksubtitler/download/%{name}-%{version}.tar.gz
-# Source0-md5:	3f20db12efc06eaa0f12f68472d2032c
+Source0:	http://pawelb.pld-dc.org/gtksubtitler/download/%{name}-%{version}.tar.gz
+# Source0-md5:	f43f51fc55d10ca661879fa00c426421
 Source1:	%{name}.desktop
 Icon:		GTKsubtitler.xpm
 URL:		http://www.gtksubtitler.prv.pl/
