@@ -6,7 +6,7 @@ Release:	1
 Vendor:		Pawe³ Boguszewski <pawelb@gower.pl>
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:	http://www.gtksubtitler.prv.pl/download/%{name}-%{version}.tar.gz
+Source0:	http://rainbow.mimuw.edu.pl/~pb675/download/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 Icon:		GTKsubtitler.xpm
 URL:		http://www.gtksubtitler.prv.pl/
