@@ -9,9 +9,9 @@ Group:		X11/Applications/Multimedia
 Source0:	http://www.gtksubtitler.prv.pl/download/%{name}-%{version}.tar.gz
 Source1:	%{name}.desktop
 Icon:		GTKsubtitler.xpm
-URL:		http://www.gtksubtitler.prv.pl
-BuildRequires:	gtk+-devel
+URL:		http://www.gtksubtitler.prv.pl/
 BuildRequires:	gnome-libs-devel
+BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -43,10 +43,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README
-%doc SUB_FORMATS
-%doc AUTHORS
-%doc COPYING
+%doc AUTHORS README SUB_FORMATS
 %attr(755,root,root) %{_bindir}/*
 %{_applnkdir}/Multimedia/%{name}.desktop
 %{_pixmapsdir}/GTKsubtitler.xpm
