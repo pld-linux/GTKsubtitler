@@ -2,11 +2,11 @@ Summary:	Tool for editing and converting subtitles for DivX films
 Summary(pl):	Program do konwersji napisów do filmów w formacie DivX
 Name:		GTKsubtitler
 Version:	v0.2.4
-Release:	1
+Release:	2
 Vendor:		Pawe³ Boguszewski <pawelb@pld-linux.org>
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:	http://rainbow.mimuw.edu.pl/~pb675/download/%{name}-%{version}.tar.gz
+Source0:	http://super.wafel.com/gtksubtitler/download/%{name}-%{version}.tar.gz
 # Source0-md5:	3f20db12efc06eaa0f12f68472d2032c
 Source1:	%{name}.desktop
 Icon:		GTKsubtitler.xpm
