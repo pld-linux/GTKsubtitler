@@ -34,10 +34,10 @@ zmienianie formatu i konwersje do formatu iso-8859-1/2.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_pixmapsdir},%{_applnkdir}/Multimedia}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_pixmapsdir},%{_desktopdir}}
 install src/GTKsubtitler $RPM_BUILD_ROOT%{_bindir}/GTKsubtitler
 install pixmaps/GTKsubtitler.xpm $RPM_BUILD_ROOT%{_pixmapsdir}/GTKsubtitler.xpm
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Multimedia
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -46,5 +46,5 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc AUTHORS README SUB_FORMATS
 %attr(755,root,root) %{_bindir}/*
-%{_applnkdir}/Multimedia/%{name}.desktop
+%{_desktopdir}/%{name}.desktop
 %{_pixmapsdir}/GTKsubtitler.xpm
