@@ -5,6 +5,7 @@ Name=GTKsubtitler
 Exec=GTKsubtitler
 Icon=GTKsubtitler.xpm
 Comment=Tool for editing and converting subtitles for DivX films
+Comment[pl]=Narzędzie do edycji i konwersji napisów dla filmów DivX
 Terminal=false
 Categories=Utility;
 # vi: encoding=utf-8
