@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=GTKsubtitler
+Exec=GTKsubtitler
+Icon=GTKsubtitler.xpm
+Comment=Tool for editing and converting subtitles for DivX films
+Terminal=false
+Categories=Utility;
+# vi: encoding=utf-8
