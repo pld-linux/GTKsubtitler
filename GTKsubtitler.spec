@@ -8,7 +8,7 @@ Release:	3
 Vendor:		Paweł Boguszewski <pawelb@pld-linux.org>
 License:	GPL
 Group:		X11/Applications/Multimedia
-Source0:	http://pawelb.pld-dc.org/gtksubtitler/download/%{name}-%{version}.tar.gz
+Source0:	http://pawelb.loki-a.com/projects/gtksubtitler/download/%{name}-%{version}.tar.gz
 # Source0-md5:	9610878afb2978a2a293f8d5b205673b
 Source1:	%{name}.desktop
 URL:		http://www.gtksubtitler.prv.pl/
@@ -31,7 +31,9 @@ zmienianie formatu i konwersje do formatu iso-8859-1/2.
 
 %build
 %configure2_13
-%{__make} OPTFLAGS="%{rpmcflags}" CC="%{__cc}"
+%{__make} \
+	OPTFLAGS="%{rpmcflags}" \
+	CC="%{__cc}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
