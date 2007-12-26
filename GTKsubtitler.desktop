@@ -1,9 +1,8 @@
 [Desktop Entry]
-Encoding=UTF-8
 Type=Application
 Name=GTKsubtitler
 Exec=GTKsubtitler
-Icon=GTKsubtitler.xpm
+Icon=GTKsubtitler
 Comment=Tool for editing and converting subtitles for DivX films
 Comment[pl]=Narzędzie do edycji i konwersji napisów dla filmów DivX
 Terminal=false
